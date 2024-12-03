@@ -6,3 +6,10 @@ const img = document.querySelectorAll("imgfull");
 
 
 lightBox.showModal();
+
+
+img.forEach((img) => {
+    img.addEventListener("click", () => {
+       
+    });
+
